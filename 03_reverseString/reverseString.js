@@ -10,3 +10,11 @@ const reverseString = function(str) {
 
 // Do not edit below this line
 module.exports = reverseString;
+
+
+// -- SOLUTIONS --
+// const reverseString = function(string) {
+//     return string.split('').reverse().join('');
+//    };
+   
+// module.exports = reverseString;
