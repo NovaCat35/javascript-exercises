@@ -18,3 +18,17 @@ const removeFromArray = function(givenArray, ...theArgs) {
 
 // Do not edit below this line
 module.exports = removeFromArray;
+
+
+//SOLUTION: https://github.com/TheOdinProject/javascript-exercises/blob/solutions/removeFromArray/removeFromArray.js
+// const removeFromArray = function (...args) {
+//     const array = args[0];
+//     const newArray = [];
+
+//     array.forEach((item) => {
+//       if (!args.includes(item)) {
+//         newArray.push(item);
+//       }
+//     });
+//     return newArray;
+//   };
