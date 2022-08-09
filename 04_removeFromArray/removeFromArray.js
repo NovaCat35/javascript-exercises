@@ -32,3 +32,10 @@ module.exports = removeFromArray;
 //     });
 //     return newArray;
 //   };
+
+//OR
+
+// var removeFromArray = function(...args) {
+//   const array = args[0]
+//   return array.filter(val => !args.includes(val))
+// }
